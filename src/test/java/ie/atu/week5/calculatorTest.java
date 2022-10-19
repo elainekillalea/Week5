@@ -1,5 +1,6 @@
 package ie.atu.week5;
 
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -31,5 +32,10 @@ public class calculatorTest {
     @Test
     void testDiv(){
         assertEquals(2, mySum.div());
+    }
+
+    @AfterEach
+    void tearDown(){
+
     }
 }
