@@ -15,6 +15,21 @@ public class calculatorTest {
 
     @Test
     void testAdd(){
-        assertEquals(5, mySum.add());
+        assertEquals(6, mySum.add());
+    }
+
+    @Test
+    void testSub(){
+        assertEquals(2, mySum.sub());
+    }
+
+    @Test
+    void testMult(){
+        assertEquals(8, mySum.mult());
+    }
+
+    @Test
+    void testDiv(){
+        assertEquals(2, mySum.div());
     }
 }
