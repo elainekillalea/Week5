@@ -8,7 +8,7 @@ public class Calculator {
         yNum = 3;
     }
 
-    public int addition(){
+    public int add(){
         sum = xNum + yNum;
         return sum;
     }
