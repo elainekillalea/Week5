@@ -1,29 +1,28 @@
 package ie.atu.week5;
 
 public class Calculator {
-    private int xNum, yNum, sum;
+    private int sum;
 
     public Calculator(){
-        xNum = 4;
-        yNum = 2;
+        sum = 0;
     }
 
-    public int add(){
+    public int add(int xNum, int yNum){
         sum = xNum + yNum;
         return sum;
     }
 
-    public int sub(){
+    public int sub(int xNum, int yNum){
         sum = xNum - yNum;
         return sum;
     }
 
-    public int mult(){
+    public int mult(int xNum, int yNum){
         sum = xNum * yNum;
         return sum;
     }
 
-    public int div(){
+    public int div(int xNum, int yNum){
         sum = xNum / yNum;
         return sum;
     }

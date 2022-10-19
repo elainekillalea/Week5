@@ -16,22 +16,22 @@ public class calculatorTest {
 
     @Test
     void testAdd(){
-        assertEquals(6, mySum.add());
+        assertEquals(6, mySum.add(4, 2));
     }
 
     @Test
     void testSub(){
-        assertEquals(2, mySum.sub());
+        assertEquals(2, mySum.sub(4, 2));
     }
 
     @Test
     void testMult(){
-        assertEquals(8, mySum.mult());
+        assertEquals(8, mySum.mult(4, 2));
     }
 
     @Test
     void testDiv(){
-        assertEquals(2, mySum.div());
+        assertEquals(2, mySum.div(4, 2));
     }
 
     @AfterEach
